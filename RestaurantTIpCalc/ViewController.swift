@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tipLbl: UILabel!
+    @IBAction func tipSlider(_ sender: Any) {
+        
+    }
+    
+    @IBAction func tipSlide(_ sender: UISlider) {
+        tipLbl.text = String(sender.value)+"%"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
