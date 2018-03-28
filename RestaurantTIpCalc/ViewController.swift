@@ -19,6 +19,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLbl: UILabel!
     @IBOutlet weak var totalvallbl: UILabel!
     @IBOutlet weak var totalslidevallbl: UILabel!
+    @IBAction func editingchangeBill(_ sender: UITextField) {
+        tipVallbl.text = String(0.15 * Float(billTF.text!)!)
+        totalvallbl.text = String(0.15 * Float(billTF.text!)! + Float(billTF.text!)!)
+    }
+    @IBAction func billValueChnage(_ sender: Any) {
+        tipVallbl.text = String(0.15 * Float(billTF.text!)!)
+        totalvallbl.text = String(0.15 * Float(billTF.text!)! + Float(billTF.text!)!)
+    }
     @IBAction func tipSlider(_ sender: Any) {
         
     }
