@@ -99,7 +99,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="vZV-X2-keF">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="18" minValue="0.0" maxValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="vZV-X2-keF">
                                 <rect key="frame" x="37" y="178" width="300" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -126,6 +126,7 @@
                     </view>
                     <connections>
                         <outlet property="billTF" destination="fkf-VA-Tv0" id="76o-bg-NyR"/>
+                        <outlet property="lblTipSlider" destination="vZV-X2-keF" id="dde-oA-Vfy"/>
                         <outlet property="slidetipvallbl" destination="3mR-RH-NHC" id="9Be-cb-vpl"/>
                         <outlet property="tipLbl" destination="MSW-i4-5TH" id="f2z-VJ-88e"/>
                         <outlet property="tipPerlbl" destination="0Yn-7H-DUv" id="o6R-cd-d45"/>
